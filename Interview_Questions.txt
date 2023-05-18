@@ -1,0 +1,156 @@
+===============================
+|| Glenn Deanthony Francisco ||
+===============================
+|| Job Interview Q&A: ||
+=======================
+======================================================================================================================================================
+What is Python? What are its main features and benefits?
+
+Python is a high-level, interpreted, dynamically typed programming language that emphasizes code readability and simplicity.
+1) Python's main features and benefits include:
+2) Simple and Easy to Learn: Python syntax is simple and straightforward, making it easy for beginners to understand and learn.
+3) Open Source: Python is an open-source language, which means it is free to use and distribute.
+4) Cross-Platform: Python runs on various platforms such as Windows, macOS, Linux, and Unix.
+5) Large Standard Library: Python has a large standard library that provides a range of modules and functions to simplify common programming tasks.
+6) Dynamically Typed: Python is dynamically typed, which means that variable types are determined at runtime, making it easier to write code quickly.
+7) Object-Oriented: Python is an object-oriented language, which means it allows developers to write code using objects and classes, making it easier
+to manage complex code.
+8) High-Level: Python is a high-level language, which means it is closer to natural language and is easier to read and understand.
+
+Python is a high-level, interpreted programming language that is widely used for web development, scientific computing, data analysis, artificial intelligence, and many other applications. Its main features include a simple and easy-to-learn syntax, support for multiple programming paradigms such as object-oriented, functional, and procedural, dynamic type checking, and automatic memory management. Python is also known for its vast collection of third-party libraries, which make it easy to develop complex applications quickly and efficiently. Its benefits include increased productivity, readability of code, and portability across different platforms.
+======================================================================================================================================================
+What is PEP8, and why is it important?
+
+PEP8 is a set of guidelines for coding in Python. It provides recommendations on how to write clean, readable, and maintainable code. PEP8 covers topics such as naming conventions, indentation, line length, and comments. Following these guidelines makes code more consistent and easier to understand, which can help reduce errors and improve collaboration among developers. It also ensures that code is more compatible with different editors and tools, making it easier to maintain and update in the future.
+======================================================================================================================================================
+What is the difference between a list and a tuple in Python?
+
+A list and a tuple are both used to store collections of items in Python, but there are some key differences between them. A list is a mutable sequence, which means that you can add, remove, or modify its elements after it has been created. Lists are created using square brackets, and their elements are separated by commas. On the other hand, a tuple is an immutable sequence, which means that you cannot change its elements once it has been created. Tuples are created using parentheses, and their elements are also separated by commas. Tuples are typically used to represent fixed collections of data that will not change over time, while lists are used for more dynamic collections.
+======================================================================================================================================================
+How do you slice a list or a string in Python?
+
+To slice a list or a string in Python, you can use the square bracket notation with a colon (:). The first argument specifies the starting index of the slice, and the second argument specifies the ending index (not inclusive). For example, if you have a list called "my_list" and you want to extract the elements from index 2 to index 4, you can write "my_list[2:4]". If you omit the first argument, Python assumes that you want to start at the beginning of the list or string. If you omit the second argument, Python assumes that you want to slice until the end of the list or string.
+======================================================================================================================================================
+What is a dictionary in Python?
+
+A dictionary is a collection of key-value pairs in Python. It is similar to a list, but instead of using numerical indices to access elements, a dictionary uses keys. Keys can be any immutable type, such as strings or tuples, and values can be any type, including other dictionaries. Dictionaries are created using curly braces ({}) and colons to separate keys and values. For example, you can create a dictionary of student names and their grades like this: {"Alice": 90, "Bob": 85, "Charlie": 95}. To access the value associated with a particular key, you can use the square bracket notation, like this: my_dict["Alice"].
+======================================================================================================================================================
+What is a Python decorator?
+
+A decorator in Python is a function that takes another function as input and returns a new function that modifies the behavior of the original function. Decorators are typically used to addadditional functionality to a function without modifying its source code directly. Decorators are indicated by the "@" symbol followed by the name of the decorator function. For example, the "@classmethod" decorator can be used to define a class method in Python. When applied to a function, the decorator modifies the behavior of the function to make it behave like a class method.
+======================================================================================================================================================
+What is a lambda function in Python?
+
+A lambda function, also known as an anonymous function, is a small, single-line function that does not have a name. It is created using the keyword "lambda" followed by the function's input parameters and its return value. Lambda functions are typically used as a quick and easy way to define simple functions that are only used once and do not need to be named. For example, you could use a lambda function to add two numbers together, like this: "lambda x, y: x + y".
+======================================================================================================================================================
+What is the difference between a class and an object in Python?
+
+In Python, a class is a blueprint or template for creating objects. It defines the properties and methods that the objects will have, but does not actually create any objects itself. On the other hand, an object is an instance of a class. It is created using the "class" keyword, and contains its own set of properties and methods that are defined by the class. In other words, a class is like a recipe for a cake, while an object is like an actual cake that has been baked using the recipe.
+======================================================================================================================================================
+How do you handle exceptions in Python?
+
+Exceptions in Python are handled using the "try" and "except" statements. The "try" block contains the code that might raise an exception, and the "except" block contains the code that should be executed if an exception is raised. For example, if you want to open a file in Python, you could use a "try" block to attempt to open the file, and an "except" block to handle any exceptions that might be raised if the file cannot be opened. Additionally, you can use the "finally" block to execute code that should be run regardless of whether an exception is raised or not.
+======================================================================================================================================================
+What is the difference between is and == in Python?
+
+ "is" is used to test whether two objects are the same object, while "==" is used to test whether two objects have the same value. For example, if 
+you have two variables "a" and "b" that both point to the same list object, "a is b" will return True, while "a == b" will also return True as long 
+as the contents of the two lists are the same.
+======================================================================================================================================================
+What is the self keyword in Python?
+
+"self" is a special keyword that refers to the instance of a class. It is typically used within the methods of a class to access its own attributes 
+and methods. When you create a new instance of a class, the "self" keyword is automatically passed as the first argument to all of the class's methods. 
+For example, if you have a method called "get_name" in a class called "Person", you would define it like this: "def get_name(self): return self.name". 
+Here, "self.name" refers to the "name" attribute of the current instance of the Person class.
+======================================================================================================================================================
+What is the difference between a generator and a list in Python?
+
+A list is a collection of values that are stored in memory, while a generator is a function that produces a sequence of values on the fly. 
+The main advantage of using a generator is that it can produce an infinitesequence of values without having to store them all in memory at once, 
+which can be more efficient for large datasets. Additionally, generators allow for lazy evaluation, meaning that values are only generated as they 
+are needed, rather than all at once. On the other hand, a list is a static collection of values that must be stored in memory, which can be limiting 
+for very large datasets.
+======================================================================================================================================================
+What is the difference between append() and extend() in Python?
+
+append() adds a single element to the end of a list while extend() takes an iterable (e.g. list, tuple) and adds its elements to the end of the list.
+======================================================================================================================================================
+What is a Python module?
+
+A Python module is a file containing Python definitions and statements. Modules allow for code reusability by allowing users to import and use functions, classes, and variables defined in other files.
+======================================================================================================================================================
+What is a virtual environment in Python, and why is it useful?
+
+A virtual environment is an isolated Python environment that allows for separate installations of packages and dependencies for different projects. This helps avoid conflicts between packages and ensures reproducibility of code across different environments.
+======================================================================================================================================================
+What is the difference between __init__ and __call__ in Python classes?
+
+__init__ is a special method in Python classes that is called when an object is created. It is used to initialize the attributes of an object. __call__ is another special method that allows an object to be called like a function. It is useful when an object needs to maintain some state between calls.
+======================================================================================================================================================
+What is the difference between a static and class method in Python?
+
+A static method in Python is a method that does not require an instance of the class to be called. It is typically used for utility functions that do not require access to instance attributes. A class method, on the other hand, is a method that requires access to the class itself. It is typically used for creating alternate constructors or for modifying class attributes.
+======================================================================================================================================================
+What is the difference between map() and filter() in Python?
+
+map() and filter() are both built-in Python functions that take an iterable and a function as inputs. map() applies the function to each element in the iterable and returns a new iterable with the results. filter() applies the function to each element in the iterable and returns a new iterable with only the elements that meet a specified condition.
+======================================================================================================================================================
+What is the difference between shallow and deep copying in Python?
+
+Shallow copying creates a new object that references the original object's data. Changes made to the original data will also affect the copied data. Deep copying, on the other hand, creates a completely new object with its own data. Changes made to the original data will not affect the copied data.
+======================================================================================================================================================
+What is the difference between a package and a module in Python?
+
+A module is a single Python file that contains definitions and statements. A package, on the other hand, is a directory containing one or more Python modules along with an __init__.py file that specifies the package's properties.
+======================================================================================================================================================
+What is the GIL in Python, and how does it affect performance?
+
+The GIL (Global Interpreter Lock) is a mechanism in Python that ensures only one thread is executing Python bytecode at a time. This can limit the performance of Python applications that require heavy CPU usage. However, the GIL does not affect applications that are I/O bound.
+======================================================================================================================================================
+What is monkey patching in Python, and when would you use it?
+
+Monkey patching is the practice of modifying existing code at runtime. This can be useful in situations where you need to modify a third-party library or framework that you do not have control over.
+======================================================================================================================================================
+What is the difference between a stack and a queue in Python?
+
+A stack is a data structure that follows the Last-In-First-Out (LIFO) principle, where the last element added is the first to be removed. A queue, on the other hand, follows the First-In-First-Out (FIFO) principle, where the first element added is the first to be removed.
+======================================================================================================================================================
+What is the difference between a set and a frozenset in Python?
+
+A set is a mutable collection of unique elements, while a frozenset is an immutable version of a set. Once a frozenset is created, its elements cannot be modified or added to.
+======================================================================================================================================================
+What is the difference between join() and split() in Python?
+
+The join() and split() methods are used for string manipulation in Python. The split() method splits a string into a list of substrings based on a specified separator. The join() method takes a list of strings and joins them into a single string with a specified separator between each string. In other words, split() splits a string, while join() merges a list of strings.
+======================================================================================================================================================
+What is the difference between a coroutine and a generator in Python?
+
+Both coroutines and generators are used for handling iterative processes in Python, but they have different use cases. A generator is used to generate a sequence of values, one at a time, and only when requested. A coroutine, on the other hand, is used for cooperative multitasking, which allows a function to yield control to another function or task without blocking.
+======================================================================================================================================================
+What is the difference between a context manager and a decorator in Python?
+
+A context manager is a Python object that defines methods to be called when entering and exiting a context, typically using the with statement. Context managers are used to manage resources, such as files, sockets, or database connections. A decorator, on the other hand, is a Python function that takes another function as input and returns a new function that usually modifies the behavior of the input function in some way, such as adding additional functionality or logging.
+======================================================================================================================================================
+What is the difference between a thread and a process in Python?
+ 
+a process is an instance of a running program, while a thread is a sequence of instructions within a process that can run concurrently with other threads. Each process has its own memory space and is isolated from other processes, while threads share the same memory space as the parent process. Processes are typically used to run separate programs or to perform heavy-duty tasks, while threads are used for lightweight tasks that can run concurrently with other threads.
+======================================================================================================================================================
+What is the difference between re.compile() and re.match() in Python?
+
+The re.compile() method is used to compile a regular expression pattern into a regular expression object, which can be used to match against a string. The re.match() method, on the other hand, is used to match a regular expression pattern against the beginning of a string. In other words, compile() is used to create a regular expression object, while match() is used to match a string against a regular expression pattern.
+======================================================================================================================================================
+What is the difference between json and pickle in Python?
+
+JSON (JavaScript Object Notation) and pickle are two serialization formats in Python. JSON is a lightweight format that is widely used for transmitting data between systems over the web. It only supports a limited set of data types, including strings, numbers, booleans, lists, and dictionaries. Pickle, on the other hand, is a more powerful serialization format that can handle more complex Python objects, including functions, classes, and instances. However, pickle is not as widely supported as JSON, and it should only be used when you need to serialize complex Python objects within a Python environment.
+======================================================================================================================================================
+References For Questions: 
+https://www.edureka.co/blog/interview-questions/python-interview-questions/
+https://intellipaat.com/blog/interview-question/python-interview-questions/?US
+https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions
+https://mindmajix.com/python-interview-questions
+https://interviewing.io/mocks/apple-python-count-islands
+https://www.interviewbit.com/python-interview-questions/
+https://www.datacamp.com/blog/top-python-interview-questions-and-answers
+https://codesubmit.io/interview/python-interview-questions
+https://www.interviewkickstart.com/interview-questions/advanced-python-interview-questions
